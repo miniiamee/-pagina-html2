@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Sandler - Página Principal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* HEADER */
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        #logo img {
+            height: 60px;
+        }
+
+        #slogan {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        #container {
+            display: flex;
+        }
+
+        /* MENÚ IZQUIERDO */
+        #menu {
+            width: 200px;
+            background: #333;
+            padding: 20px;
+            min-height: 500px;
+        }
+
+        #menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        #menu a:hover {
+            color: #ffcc00;
+        }
+
+        /* CONTENIDO */
+        #content {
+            flex: 1;
+            padding: 20px;
+            background: white;
+        }
+
+        #content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* FOOTER */
+        #footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div id="header">
+        <div id="logo">
+            <img src="adam1.png" alt="">
+        </div>
+        <div id="slogan">
+            "Risas que perduran en el tiempo"
+        </div>
+    </div>
+
+    <!-- CONTENEDOR GENERAL -->
+    <div id="container">
+        <!-- MENÚ IZQUIERDO -->
+        <div id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="biografia.html">Biografía</a>
+            <a href="peliculas.html">Películas</a>
+            <a href="premios.html">Premios</a>
+        </div>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <div id="content">
+            <h1>Bienvenido a la página de Adam Sandler</h1>
+            <p>Adam Sandler es un actor, comediante, productor y músico estadounidense conocido por sus papeles cómicos y también dramáticos.</p>
+            <img src="adam2.png" alt="Adam Sandler">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        &copy; 2025 - Proyecto Web Ame reyes
+    </div>
+
+</body>
+</html>
